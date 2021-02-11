@@ -1,0 +1,78 @@
+label {
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+}
+.btn-send {
+	font-family: Montserrat;
+    text-transform: uppercase;
+    margin: 5px 0 0 0;
+	font-size:20px;
+	font-weight:600;
+}
+#contact-form .messages{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.formulario__grupo-incorrecto{
+    color: #bb2929 !important;
+}
+
+.formulario__grupo-correcto{
+    color: green !important;
+}
+
+
+.usuario-formulario__input-error{
+    display: none;
+    color: red;
+}
+
+.empresa-formulario__input-error{
+    display: none;;
+    color: red;
+}
+.rubro-formulario__input-error{
+    display: none;;
+    color: red;
+}
+.localidad-formulario__input-error{
+    display: none;
+    color: red;
+}
+
+
+.usuario-formulario__input-error-activo{
+    display: block;
+}
+
+.mail-formulario__input-error{
+       display: none;
+    color: red;
+}
+
+.mail-formulario__input-error-activo{
+   display: block !important;
+}
+
+.phone-formulario__input-error{
+    display: none;
+    color: red;
+}
+
+.phone-formulario__input-error-activo{
+    display: block !important;
+ }
+
+ .message-formulario__input-error{
+    display: none;
+    color: red;
+ }
+
+ .message-formulario__input-error-activo{
+    display: block !important;
+ }
